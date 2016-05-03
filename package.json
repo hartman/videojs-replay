@@ -1,6 +1,6 @@
 {
   "name": "videojs-replay",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds a replay button to video.js player",
   "main": "es5/plugin.js",
   "scripts": {
