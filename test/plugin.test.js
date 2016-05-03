@@ -41,10 +41,10 @@ QUnit.test('registers itself with video.js', function(assert) {
   assert.expect(1);
 
   assert.strictEqual(
-    Player.prototype.replay,
+    Player.prototype.replayButton,
     plugin,
     'videojs-replay plugin was registered'
   );
 
-  this.player.replay();
+  this.player.replayButton();
 });

@@ -24,7 +24,7 @@ This is the simplest case. Get the script in whatever way you prefer and include
 <script>
   var player = videojs('my-video');
 
-  player.replay();
+  player.replayButton();
 </script>
 ```
 
@@ -42,7 +42,7 @@ require('videojs-replay');
 
 var player = videojs('my-video');
 
-player.replay();
+player.replayButton();
 ```
 
 ### RequireJS/AMD
@@ -53,7 +53,7 @@ When using with RequireJS (or another AMD library), get the script in whatever w
 require(['video.js', 'videojs-replay'], function(videojs) {
   var player = videojs('my-video');
 
-  player.replay();
+  player.replayButton();
 });
 ```
 

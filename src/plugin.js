@@ -62,20 +62,20 @@ const onPlayerReady = (player, options) => {
  * depending on how the plugin is invoked. This may or may not be important
  * to you; if not, remove the wait for "ready"!
  *
- * @function replay
+ * @function replayButton
  * @param    {Object} [options={}]
  *           An object of options left to the plugin author to define.
  */
-const replay = function(options) {
+const replayButton = function(options) {
   this.ready(() => {
     onPlayerReady(this, videojs.mergeOptions(defaults, options));
   });
 };
 
 // Register the plugin with video.js.
-videojs.plugin('replay', replay);
+videojs.plugin('replayButton', replayButton);
 
 // Include the version number.
-replay.VERSION = '__VERSION__';
+replayButton.VERSION = '__VERSION__';
 
-export default replay;
+export default replayButton;
