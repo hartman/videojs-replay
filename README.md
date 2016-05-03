@@ -1,5 +1,7 @@
 # videojs-replay
 
+[![Current version](https://img.shields.io/npm/v/videojs-replay.svg)](https://www.npmjs.com/package/videojs-replay) [![Dependencies](https://img.shields.io/versioneye/d/nodejs/videojs-replay.svg)](https://www.versioneye.com/nodejs/videojs-replay)
+
 Adds a replay button to video.js player
 
 ## Installation
