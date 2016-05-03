@@ -67,6 +67,8 @@
   },
   "files": [
     "CONTRIBUTING.md",
+    "LICENSE-MIT",
+    "LICENSE-APACHE2",
     "dist/",
     "docs/",
     "es5/",
