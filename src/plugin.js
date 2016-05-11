@@ -46,10 +46,7 @@ const onPlayerReady = (player, options) => {
   player.on('ended', () => {
     addReplayClass(player);
   });
-  player.on('play', () => {
-    removeReplayClass(player);
-  });
-  player.on('seeking', () => {
+  player.on(['play', 'seeking'], () => {
     removeReplayClass(player);
   });
 };
