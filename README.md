@@ -2,7 +2,7 @@
 
 [![Current version](https://img.shields.io/npm/v/videojs-replay.svg)](https://www.npmjs.com/package/videojs-replay) [![Dependencies](https://img.shields.io/versioneye/d/nodejs/videojs-replay.svg)](https://www.versioneye.com/nodejs/videojs-replay) [![Build Status](https://travis-ci.org/hartman/videojs-replay.svg?branch=master)](https://travis-ci.org/hartman/videojs-replay)
 
-A [Video.js](https://www.videojs.com) plugin that turns the play button into a replay button at the end of playback
+A [Video.js](https://www.videojs.com) plugin that turns the play button into a replay button at the end of playback. This functionality is provided by default in VideoJS 6.
 
 ## Installation
 
