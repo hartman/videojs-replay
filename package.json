@@ -90,7 +90,7 @@
     "browserify-versionify": "^1.0.6",
     "budo": "^8.0.4",
     "glob": "^6.0.3",
-    "global": "^4.3.0",
+    "global": "^4.3.2",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-detect-browsers": "^2.0.2",
