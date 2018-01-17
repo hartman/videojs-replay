@@ -5,8 +5,8 @@ const defaults = {};
 
 const addReplayClass = (player) => {
   if (player.duration() !== Infinity) {
-    player.addClass('vjs-replay')
-      .getChild('controlBar')
+    player.addClass('vjs-replay');
+    player.getChild('controlBar')
       .getChild('playToggle')
       .controlText(player.localize('Replay'));
   }
@@ -25,8 +25,8 @@ const removeReplayClass = (player) => {
   } else {
     controlLabel = player.localize('Pause');
   }
-  player.removeClass('vjs-replay')
-    .getChild('controlBar')
+  player.removeClass('vjs-replay');
+  player.getChild('controlBar')
     .getChild('playToggle')
     .controlText(controlLabel);
 };
@@ -70,7 +70,7 @@ const replayButton = function(options) {
 };
 
 // Register the plugin with video.js.
-videojs.plugin('replayButton', replayButton);
+(videojs.registerPlugin || videojs.plugin)('replayButton', replayButton);
 
 // Include the version number.
 replayButton.VERSION = '__VERSION__';
